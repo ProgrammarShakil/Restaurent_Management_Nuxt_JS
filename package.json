@@ -12,5 +12,10 @@
     "@nuxtjs/tailwindcss": "^6.7.0",
     "@types/node": "^18",
     "nuxt": "^3.5.1"
+  },
+  "dependencies": {
+    "@nuxtjs/composition-api": "^0.33.1",
+    "tsparticles": "^2.9.3",
+    "vue3-particles": "^2.9.3"
   }
 }

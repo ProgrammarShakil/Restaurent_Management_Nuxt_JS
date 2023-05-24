@@ -3,9 +3,9 @@
 @tailwind utilities;
 
 
-body {
+/* body {
     @apply bg-rose-900;
-}
+} */
 
 @layer components{
     .btn{
