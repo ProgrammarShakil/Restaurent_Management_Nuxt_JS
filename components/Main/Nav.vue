@@ -11,7 +11,7 @@
               v-for="link in links"
               :key="link.id"
               :href="link.url"
-              class="px-3 py-2 hover:text-green-500 text-animation menuAnimate rounded-md font-medium text-3xl"
+              class="px-3 py-2 hover:text-green-500 text-animation menuAnimate rounded-md font-medium text-2xl"
             >
             <!-- bg-gradient-to-r from-gray-100 to-gray-600 text-transparent bg-clip-text -->
               {{ link.label }}
@@ -79,7 +79,7 @@
     </div>
     <div
       v-show="isMenuOpen"
-      class="md:hidden bg-gray-700"
+      class="md:hidden bg-gray-900 border border-green-500 rounded-md mt-2"
       @click="isMenuOpen = false"
     >
       <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
@@ -87,7 +87,7 @@
           v-for="link in links"
           :key="link.id"
           :href="link.url"
-          class="block px-3 py-2 rounded-md text-base font-medium text-white hover:bg-gray-600"
+          class="block px-3 py-2 rounded-md text-base font-medium text-white hover:text-green-500 text-center"
         >
           {{ link.label }}
         </a>

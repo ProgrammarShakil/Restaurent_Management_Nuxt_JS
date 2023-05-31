@@ -13,7 +13,7 @@
     <div>
       <div class="lg:flex lg:justify-between lg:space-x-7 lg:items-center my-5">
         <div
-          class="lg:w-1/3 sm:my-5 border border-gray-500 rounded-lg hover:cursor-pointer hover:animate-pulse duration-300"
+          class="lg:w-1/3 sm:my-5 border border-gray-500 rounded-lg hover:cursor-pointer hover:border-blue-500 duration-300"
         >
           <img class="rounded-t-lg" src="~/assets/img/blog/comp1.jpg" alt="" />
           <hr />
@@ -27,7 +27,7 @@
           </div>
         </div>
         <div
-          class="lg:w-1/3 sm:my-5 border border-gray-500 rounded-lg hover:cursor-pointer hover:animate-pulse duration-300"
+          class="lg:w-1/3 sm:my-5 border border-gray-500 rounded-lg hover:cursor-pointer hover:border-blue-500 duration-300"
         >
           <img class="rounded-t-lg" src="~/assets/img/blog/comp1.jpg" alt="" />
           <hr />
@@ -41,7 +41,7 @@
           </div>
         </div>
         <div
-          class="lg:w-1/3 sm:my-5 border border-gray-500 rounded-lg hover:cursor-pointer hover:animate-pulse duration-300"
+          class="lg:w-1/3 sm:my-5 border border-gray-500 rounded-lg hover:cursor-pointer hover:border-blue-500 duration-300"
         >
           <img class="rounded-t-lg" src="~/assets/img/blog/comp1.jpg" alt="" />
           <hr />
