@@ -1,6 +1,9 @@
 <template>
   <div id="app">
-    <div @click="animateControl">
+    <div
+      @click="animateControl"
+      style="position: absolute; right: 195px; top: 17px; cursor: pointer"
+    >
       <span v-if="animateRemove"
         ><svg
           xmlns="http://www.w3.org/2000/svg"
@@ -37,6 +40,7 @@
     />
 
     <Particles
+      v-if="animateRemove"
       id="tsparticles"
       :particlesInit="particlesInit"
       :particlesLoaded="particlesLoaded"
