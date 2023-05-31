@@ -3,12 +3,15 @@
 @tailwind utilities;
 
 
-/* body {
-    @apply bg-rose-900;
-} */
+body {
+    /* @apply bg-gradient-to-r from-violet-500 to-fuchsia-500; */
+    @apply bg-gradient-to-l from-gray-900 to-gray-800 text-white;
+
+
+}
 
 @layer components{
     .btn{
-        @apply bg-[#12b488] text-white px-3 py-2 rounded-md text-sm text-white;
+        @apply bg-gradient-to-r from-green-400 to-blue-500 hover:from-blue-500 hover:to-green-500 hover:animate-pulse py-2 px-3 text-white rounded-md;
     }
 }

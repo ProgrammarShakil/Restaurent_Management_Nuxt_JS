@@ -1,6 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  modules: ["@nuxtjs/tailwindcss"],
+  modules: ["@nuxtjs/tailwindcss", "nuxt-icon"],
   // plugins: ['@/plugins/particles'],
 
   tailwindcss: {
@@ -11,13 +11,22 @@ export default defineNuxtConfig({
     config: {},
     injectPosition: "first",
     viewer: true,
+    darkMode:"class",     // class or media
+    // theme: {
+    //   extend: {
+    //     backgroundImage: {
+    //       'hero-pattern': "url('/img/hero-pattern.svg')",
+    //       'footer-texture': "url('/img/footer-texture.png')",
+    //     }
+    //   }
+    // }
   },
 
   app:{
     head:{
-      title: 'Test meta',
+      title: 'Netigian - Digital Solution',
       meta: [
-        {name: 'description', content:'Here will be content'}
+        {name: 'description', content:'Netigian is your ditigal solution, we focus on help you to make a brand from zero.'}
       ],
       link:[
         {rel:'stylesheet', href:'https://fonts.googleapis.com/icon?family=Material+Icons'}

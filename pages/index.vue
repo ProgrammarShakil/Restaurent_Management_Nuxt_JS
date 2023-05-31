@@ -1,10 +1,23 @@
 <template>
-  <div>
-    <p class="font-medium text-white">page index</p>
-    <button class="btn">button</button>
-  </div>
+  <MainNav />
+  <MainHero />
+  <MainServices />
+  <MainFaq />
+  <MainApproach/>
+  <MainBlog/>
 </template>
 
-<script setup></script>
+<script>
+import { ref } from "vue";
 
-<style scoped></style>
+export default {
+  name: "Navbar",
+  data() {
+    return {};
+  },
+};
+</script>
+
+<style>
+/* Add Tailwind CSS classes as per your project setup */
+</style>
