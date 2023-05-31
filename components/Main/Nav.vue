@@ -11,7 +11,7 @@
               v-for="link in links"
               :key="link.id"
               :href="link.url"
-              class="px-3 py-2 hover:text-green-500 text-animation menuAnimate rounded-md font-medium text-lg"
+              class="px-3 py-2 hover:text-green-500 text-animation menuAnimate rounded-md font-medium text-3xl"
             >
             <!-- bg-gradient-to-r from-gray-100 to-gray-600 text-transparent bg-clip-text -->
               {{ link.label }}

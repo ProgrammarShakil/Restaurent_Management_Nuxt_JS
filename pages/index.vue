@@ -5,6 +5,7 @@
   <MainFaq />
   <MainApproach/>
   <MainBlog/>
+  <MainFooter/>
 </template>
 
 <script>

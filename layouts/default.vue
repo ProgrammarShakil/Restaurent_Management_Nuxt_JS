@@ -2,7 +2,7 @@
   <div id="app">
     <div
       @click="animateControl"
-      style="position: absolute; right: 195px; top: 17px; cursor: pointer"
+      style="position: fixed; right: 0px; bottom: 0px; cursor: pointer"
     >
       <span v-if="animateRemove"
         ><svg
