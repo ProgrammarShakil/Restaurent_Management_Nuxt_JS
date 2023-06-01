@@ -33,7 +33,7 @@
       </div>
     </div>
     <div class="text-7xl py-3 text-center">Have a project in mind?</div>
-    <div class="text-7xl py-3 text-center text-rose-300 underline lg:mb-8">Let’s get to work.</div>
+    <div class="text-7xl py-3 text-center text-green-500 underline lg:mb-8">Let’s get to work</div>
   </div>
 </template>
 

@@ -6,30 +6,63 @@
           We help you to go online & increase your conversion rate.
         </h4>
       </div>
-      <div class="lg:mt-0 sm:mt-8 "><nuxt-link class="underline underline-offset-4" to="/services">View All Services</nuxt-link></div>
+      <div class="lg:mt-0 sm:mt-8">
+        <nuxt-link class="underline underline-offset-4" to="/services"
+          >View All Services</nuxt-link
+        >
+      </div>
     </div>
     <div>
       <div class="lg:flex lg:justify-between lg:space-x-7 lg:items-center my-5">
         <SmallCompCard
-          title="Brand Strategy & Art Direction"
-          :imgSrc="imageUrl"
-          descriptionOne=" User friendly interface"
-          descriptionTwo=" Nothing distracts from work"
-          descriptionThree=" Easy to start chatting"
-        />
-        <SmallCompCard
-          title="UX/UI Design & Website/App Design"
+          class="lg:w-1/3"
+          title="Social Media Management"
           :imgSrc="imageUrlOne"
-          descriptionOne=" User friendly interface"
-          descriptionTwo=" Nothing distracts from work"
-          descriptionThree=" Easy to start chatting"
+          descriptionOne="  Social media to engage your target audience"
+          descriptionTwo=" Unlock the Power of Social Media with Expert Management Services from Netigian"
+          descriptionThree=" Manage your social media channelels"
         />
         <SmallCompCard
-          title="Engage your customers dramatically."
+          class="lg:w-1/3"
+          title="UX/UI Design"
+          :imgSrc="imageUrlOne"
+          descriptionOne=" User friendly interface & Engaging User Experiences"
+          descriptionTwo=" Intuitive User Interfaces, Creating Meaningful UI & Collaborative Design Process"
+          descriptionThree=" Mobile-First Approach & Usability and Accessibility"
+        />
+        <SmallCompCard
+          class="lg:w-1/3"
+          title=" Graphics Design"
           :imgSrc="imageUrlTwo"
-          descriptionOne=" User friendly interface"
-          descriptionTwo=" Nothing distracts from work"
-          descriptionThree=" Easy to start chatting"
+          descriptionOne=" Make a lasting impression with our creative branding"
+          descriptionTwo=" and graphic design solutions"
+          descriptionThree="We develop unique brand identities, logos, and marketing collaterals"
+        />
+      </div>
+      <div class="lg:flex lg:justify-between lg:space-x-7 lg:items-center my-5">
+        <SmallCompCard
+          class="lg:w-1/3"
+          title="Android App Development"
+          :imgSrc="imageUrlFour"
+          descriptionOne="  User experience is at the core of our Android app development process"
+          descriptionTwo="  Create user-centric interfaces that engage and delight users"
+          descriptionThree=" Cutting-Edge Functionality & Quality Assurance"
+        />
+        <SmallCompCard
+          class="lg:w-1/3"
+          title="Website Development"
+          :imgSrc="imageUrlFive"
+          descriptionOne=" Single Page Application with SEO Friendly"
+          descriptionTwo=" Custom Features with optimized Code & API Development & Awesome Custom UI"
+          descriptionThree=" Fullstack web development with android application"
+        />
+        <SmallCompCard
+          class="lg:w-1/3"
+          title="Digital Marketing"
+          :imgSrc="imageUrlSix"
+          descriptionOne=" We take the time to understand your business goals, target audience"
+          descriptionTwo=" Industry landscape to develop tailored strategies"
+          descriptionThree="SEO, PPC, SMM, Analytics and Reporting, Email Marketing"
         />
       </div>
     </div>
@@ -43,11 +76,17 @@ export default {
   name: "Navbar",
   data() {
     return {
-      imageUrl:
-        "https://ui-themez.smartinnovates.net/items/geekfolio1/dark/assets/imgs/serv-icons/0.png",
       imageUrlOne:
-        "https://ui-themez.smartinnovates.net/items/geekfolio1/dark/assets/imgs/serv-icons/1.png",
+        "https://ui-themez.smartinnovates.net/items/geekfolio1/dark/assets/imgs/serv-icons/0.png",
       imageUrlTwo:
+        "https://ui-themez.smartinnovates.net/items/geekfolio1/dark/assets/imgs/serv-icons/1.png",
+      imageUrlThree:
+        "https://ui-themez.smartinnovates.net/items/geekfolio1/dark/assets/imgs/serv-icons/2.png",
+      imageUrlFour:
+        "https://ui-themez.smartinnovates.net/items/geekfolio1/dark/assets/imgs/serv-icons/0.png",
+      imageUrlFive:
+        "https://ui-themez.smartinnovates.net/items/geekfolio1/dark/assets/imgs/serv-icons/1.png",
+      imageUrlSix:
         "https://ui-themez.smartinnovates.net/items/geekfolio1/dark/assets/imgs/serv-icons/2.png",
     };
   },

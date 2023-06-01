@@ -2,7 +2,7 @@
     <div>
       <div class="lg:flex lg:justify-between lg:items-center text-center">
         <div class="border-2 drop-shadow-md	border-gray-500 sm:my-5 rounded-full p-5 hover:cursor-pointer  hover:border-green-700 duration-300">
-          <div class="my-5 text-2xl">{{ title }}</div>
+          <div class="my-5 text-2xl text-green-500 font-bold">{{ title }}</div>
           <div class="space-y-3">
             <div class="text-7xl">{{ descriptionOne }}</div>
             <div class="tracking-widest	leading-loose">{{ descriptionTwo }}</div>

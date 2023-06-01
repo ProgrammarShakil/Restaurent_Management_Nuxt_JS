@@ -1,13 +1,12 @@
 <template>
   <div class="lg:flex lg:items-center mt-8 pb-4">
     <div class="lg:w-2/4">
-      <div class="text-4xl lg:text-7xl tracking-widest">
-        Better design for your digital products.
+      <div class="text-4xl lg:text-7xl tracking-wider">
+        we focus on building your <span class="text-green-500">Brand from scratch</span>.
       </div>
       <div>
         <div class="my-5 font-light tracking-wider">
-          We are a creative studio specializing in UI/UX design, development and
-          strategy.
+          Welcome to Netigian - Your Trusted Digital Agency for Unparalleled Client Satisfaction
         </div>
       </div>
       <div>
