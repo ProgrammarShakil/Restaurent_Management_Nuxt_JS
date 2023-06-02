@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="lg:flex lg:justify-evenly lg:items-center">
-      <div class="border sm:my-5 border-gray-500 rounded-lg p-5 hover:cursor-pointer  hover:scale-110 duration-300">
+      <div class="border sm:my-5 border-gray-500 rounded-lg p-5 hover:cursor-pointer  hover:scale-105 duration-300">
         <div class=""><img style="width: 50px" :src="imgSrc" alt="" /></div>
         <div class="my-5 text-2xl text-green-500">{{ title }}</div>
         <div class="space-y-3">
