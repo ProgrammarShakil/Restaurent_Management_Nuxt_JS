@@ -3,19 +3,23 @@
     <div class="">
       <div class="flex justify-between items-center h-16">
         <div class="flex items-center">
-          <a href="#" class="mt-5"><img style="width:200px" src="~/assets/img/Netigian_logo.png" alt=""></a>
+          <a href="#" class="mt-5"
+            ><img
+              style="width: 200px"
+              src="~/assets/img/Netigian_logo.png"
+              alt=""
+          /></a>
         </div>
         <div class="flex items-center">
           <div class="hidden md:flex">
-            <a
+            <NuxtLink
               v-for="link in links"
               :key="link.id"
-              :href="link.url"
+              :to="link.url"
               class="px-3 py-2 hover:text-green-500 text-animation menuAnimate rounded-md font-medium text-2xl"
             >
-            <!-- bg-gradient-to-r from-gray-100 to-gray-600 text-transparent bg-clip-text -->
               {{ link.label }}
-            </a>
+            </NuxtLink>
           </div>
           <div class="md:hidden">
             <button
@@ -105,20 +109,18 @@ export default {
     return {
       isMenuOpen: false,
       links: [
-        { id: 1, label: "Home", url: "#" },
-        { id: 2, label: "About", url: "#" },
-        { id: 3, label: "Services", url: "#" },
-        { id: 4, label: "Contact", url: "#" },
-        { id: 4, label: "Blogs", url: "#" },
-        { id: 4, label: "Login", url: "#" },
-        { id: 4, label: "Sign Up", url: "#" },
+        { id: 1, label: "Home", url: "/" },
+        { id: 2, label: "About", url: "/about/" },
+        { id: 3, label: "Services", url: "/services/" },
+        { id: 4, label: "Contact", url: "/contact/" },
+        { id: 4, label: "Blogs", url: "/blogs/" },
+        { id: 4, label: "Login", url: "/auth/login/" },
+        { id: 4, label: "Sign Up", url: "/auth/register/" },
       ],
       IsSeachBarOpen: false,
     };
   },
-  methods:{
-    
-  }
+  methods: {},
 };
 </script>
 
@@ -130,15 +132,15 @@ export default {
   /* color:#fff; */
 }
 .text-animation {
-    animation: slide-in 1s ease-in-out infinite alternate;
-  }
+  animation: slide-in 1s ease-in-out infinite alternate;
+}
 
-  @keyframes slide-in {
-    0% {
-      transform: translateX(-10%);
-    }
-    100% {
-      transform: translateX(0);
-    }
+@keyframes slide-in {
+  0% {
+    transform: translateX(-10%);
   }
+  100% {
+    transform: translateX(0);
+  }
+}
 </style>
