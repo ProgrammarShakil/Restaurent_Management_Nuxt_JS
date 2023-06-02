@@ -8,7 +8,7 @@
       </div>
     </div>
     <hr class="border-gray-500"/>
-    <p v-show="showAnswer" class="answer py-5 text-gray-400">{{ answer }}</p>
+    <p v-show="showAnswer" class="answer py-5 text-green-500">{{ answer }}</p>
   </div>
 </template>
 

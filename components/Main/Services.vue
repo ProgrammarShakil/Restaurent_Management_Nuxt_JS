@@ -20,14 +20,14 @@
           :imgSrc="imageUrlOne"
           descriptionOne="  Social media to engage your target audience"
           descriptionTwo=" Unlock the Power of Social Media with Expert Management Services from Netigian"
-          descriptionThree=" Manage your social media channelels"
+          descriptionThree=" Manage your social media channelels with Netigian"
         />
         <SmallCompCard
           class="lg:w-1/3"
           title="UX/UI Design"
           :imgSrc="imageUrlOne"
           descriptionOne=" User friendly interface & Engaging User Experiences"
-          descriptionTwo=" Intuitive User Interfaces, Creating Meaningful UI & Collaborative Design Process"
+          descriptionTwo=" Creating Meaningful UI & Collaborative Design"
           descriptionThree=" Mobile-First Approach & Usability and Accessibility"
         />
         <SmallCompCard
