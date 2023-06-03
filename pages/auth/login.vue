@@ -1,6 +1,6 @@
 <template>
   <div>
-    <!-- <MainNav/> -->
+    <MainNav/>
     <section class="gradient-form h-full mt-10">
       <div class="container h-full p-10">
         <div
