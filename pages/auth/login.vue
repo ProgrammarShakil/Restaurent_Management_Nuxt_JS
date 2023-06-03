@@ -39,7 +39,7 @@
                         <label
                           for="exampleFormControlInput1"
                           class="left-3 top-0 mb-0 max-w-[90%] text-neutral-500"
-                          >
+                        >
                         </label>
                       </div>
 
@@ -54,7 +54,7 @@
                         <label
                           for="exampleFormControlInput11"
                           class="left-3 top-0 mb-0 max-w-[90%] text-neutral-500"
-                          >
+                        >
                         </label>
                       </div>
 
@@ -76,12 +76,15 @@
                       <!--Register button-->
                       <div class="flex items-center justify-between pb-6">
                         <p class="mb-0 mr-2">Don't have an account?</p>
-                        <button
-                          type="button"
-                          class="inline-block text-rose-500 rounded border border-green-500 px-6 pb-[6px] pt-2 text-xs font-medium uppercase leading-normal text-danger transition duration-150 ease-in-out hover:border-danger-600 hover:bg-neutral-500 hover:bg-opacity-10 hover:text-danger-600 focus:border-danger-600 focus:text-danger-600 focus:outline-none focus:ring-0 active:border-danger-700 active:text-danger-700 dark:hover:bg-neutral-100 dark:hover:bg-opacity-10"
+
+                        <NuxtLink to="/auth/register"
+                          ><button
+                            type="button"
+                            class="inline-block text-rose-500 rounded border border-green-500 px-6 pb-[6px] pt-2 text-xs font-medium uppercase leading-normal text-danger transition duration-150 ease-in-out hover:border-danger-600 hover:bg-neutral-500 hover:bg-opacity-10 hover:text-danger-600 focus:border-danger-600 focus:text-danger-600 focus:outline-none focus:ring-0 active:border-danger-700 active:text-danger-700 dark:hover:bg-neutral-100 dark:hover:bg-opacity-10"
+                          >
+                            Register
+                          </button></NuxtLink
                         >
-                          <NuxtLink to="/auth/register">Register</NuxtLink>
-                        </button>
                       </div>
                     </form>
                   </div>
@@ -93,13 +96,15 @@
                 >
                   <div class="px-4 py-6 text-white md:mx-6 md:p-12">
                     <h4 class="mb-10 text-5xl font-semibold">
-                      We are more than just a company
+                      Your Digital Transformation Partner
                     </h4>
                     <p class="text-sm">
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                      ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                      At Netigian, we are a dynamic and innovative digital
+                      agency dedicated to helping businesses thrive in the
+                      ever-evolving digital landscape. With our expertise and
+                      passion for cutting-edge technology, we specialize in
+                      providing tailored digital solutions that propel our
+                      clients forward.
                     </p>
                   </div>
                 </div>
